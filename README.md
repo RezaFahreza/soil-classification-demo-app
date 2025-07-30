@@ -4,7 +4,7 @@ Aplikasi web untuk klasifikasi jenis tanah menggunakan deep learning dan Streaml
 
 ## 🚀 Live Demo
 
-[🔗 Coba aplikasi di sini](https://your-app-url.streamlit.app) *(akan diupdate setelah deployment)*
+[🔗 Coba aplikasi di sini](https://soil-classification-demo.streamlit.app/)
 
 ## 🎯 Fitur
 
@@ -42,7 +42,7 @@ Aplikasi web untuk klasifikasi jenis tanah menggunakan deep learning dan Streaml
 
 1. **Clone repository:**
 ```bash
-git clone https://github.com/yourusername/soil-classification-app.git
+git clone https://github.com/RezaFahreza/soil-classification-app.git
 cd soil-classification-app
 ```
 
@@ -71,7 +71,7 @@ streamlit run app.py
 
 ## 📊 Model Information
 
-- **Architecture:** Convolutional Neural Network (CNN)
+- **Architecture:** Convolutional Neural Network (CNN) with Transfer Learning Xception Architecture
 - **Input Size:** 299x299 pixels
 - **Classes:** 8 jenis tanah
 - **Framework:** TensorFlow/Keras
@@ -80,10 +80,12 @@ streamlit run app.py
 
 ```
 soil-classification-app/
-├── app.py                 # Main application
-├── Model_Terbaik.h5      # Trained model
-├── requirements.txt      # Dependencies
+├── __init__.py          # Init file   
+├── app.py               # Main application
+├── Model_Terbaik.h5     # Trained model
+├── requirements.txt     # Dependencies
 ├── .gitignore           # Git ignore rules
+├── .gitattributes       # Specific attribute (.h5) file path  
 └── README.md            # Documentation
 ```
 
